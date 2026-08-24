@@ -37,15 +37,5 @@ I'm a passionate Software Engineer specializing in Mobile App development. I lov
 
 ---
 
-## 📊 GitHub Analytics
-
-![Yak0xff's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yak0xff&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yak0xff&layout=compact&theme=radical)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Yak0xff&theme=radical)
-[![trophy](https://github-profile-trophy.vercel.app/?username=Yak0xff&theme=monokai)](https://github.com/ryo-ma/github-profile-trophy)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Yak0xff)
-
----
-
 
 > “Code is like humor. When you have to explain it, it’s bad.” – Cory House
