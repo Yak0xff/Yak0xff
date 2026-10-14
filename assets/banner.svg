@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Yak0xff banner">
+  <title>Yak0xff — Banner</title>
+  <defs>
+    <linearGradient id="grad" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="45%" stop-color="#0ea5a4" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+
+    <style><![CDATA[
+      .bg { fill: url(#grad); }
+      .glow { fill: #ffffff; opacity: 0.08; filter: url(#blur); }
+      .wave { fill: rgba(255,255,255,0.03); }
+      .title { fill: #ffffff; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight:700 }
+      .subtitle { fill: #e6f6f5; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif }
+
+      /* 动画 */
+      @keyframes floatX1 { 0% { transform: translateX(0px) translateY(0px); } 50% { transform: translateX(460px) translateY(120px); } 100% { transform: translateX(0px) translateY(0px); } }
+      @keyframes floatX2 { 0% { transform: translateX(0px) translateY(0px); } 50% { transform: translateX(320px) translateY(80px); } 100% { transform: translateX(0px) translateY(0px); } }
+      @keyframes floatX3 { 0% { transform: translateX(0px) translateY(0px); } 50% { transform: translateX(-720px) translateY(-120px); } 100% { transform: translateX(0px) translateY(0px); } }
+      @keyframes slow-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+      .f1 { transform-origin: 120px 60px; animation: floatX1 18s ease-in-out infinite; }
+      .f2 { transform-origin: 400px 40px; animation: floatX2 14s ease-in-out infinite; }
+      .f3 { transform-origin: 980px 170px; animation: floatX3 20s ease-in-out infinite; }
+      .rot { transform-origin: 21px 32px; animation: slow-rotate 20s linear infinite; }
+
+      /* 适当在小屏上缩放 */
+      @media (max-width: 640px) {
+        svg { height: 140px; }
+      }
+    ]]></style>
+  </defs>
+
+  <!-- 背景渐变 -->
+  <rect class="bg" width="1200" height="280" rx="12" ry="12" />
+
+  <!-- 漂浮光斑（使用 CSS 动画） -->
+  <g class="glow">
+    <circle class="f1" cx="120" cy="60" r="60" />
+    <circle class="f2" cx="560" cy="40" r="36" />
+    <circle class="f3" cx="980" cy="170" r="72" />
+  </g>
+
+  <!-- 浪潮（静态） -->
+  <g transform="translate(0,210)" class="wave">
+    <path d="M0 60 C150 20 350 100 600 60 C850 20 1050 100 1200 60 L1200 120 L0 120 Z"/>
+  </g>
+
+  <!-- 标题 -->
+  <g>
+    <text x="64" y="110" font-size="42" class="title">Yak0xff</text>
+    <text x="64" y="148" font-size="16" class="subtitle">移动应用工程师 · 专注产品体验与工程实现</text>
+
+    <!-- 动态下划线（通过宽度动画实现，需要在 DOM inline 时可见；作为文件引用时保持静态线条） -->
+    <rect x="64" y="162" width="260" height="2" fill="#ffffff" opacity="0.06" rx="1"/>
+  </g>
+
+  <!-- 右侧旋转多边形 -->
+  <g transform="translate(980,40)" opacity="0.12">
+    <g class="rot">
+      <polygon points="0,24 21,8 34,32 21,56 0,40" fill="#ffffff" />
+    </g>
+  </g>
+
+</svg>
