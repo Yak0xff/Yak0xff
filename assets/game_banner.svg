@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Yak0xff gamified banner">
+  <title>Yak0xff — Game Banner</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#071029" />
+      <stop offset="50%" stop-color="#0b2a3a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="sunGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffd86b"/>
+      <stop offset="100%" stop-color="#ff9b6b"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="6" />
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="320" fill="url(#bg)" />
+
+  <!-- 远景星点（闪烁） -->
+  <g fill="#fff" opacity="0.9">
+    <circle cx="80" cy="40" r="1.6" fill="#fff">
+      <animate attributeName="opacity" dur="3s" values="0.2;1;0.2" repeatCount="indefinite" begin="0s" />
+    </circle>
+    <circle cx="140" cy="20" r="1.2" fill="#fff">
+      <animate attributeName="opacity" dur="4s" values="0.1;0.9;0.1" repeatCount="indefinite" begin="0.6s" />
+    </circle>
+    <circle cx="220" cy="60" r="1.4">
+      <animate attributeName="opacity" dur="5s" values="0.15;0.95;0.15" repeatCount="indefinite" begin="1.2s" />
+    </circle>
+    <circle cx="360" cy="28" r="1.3">
+      <animate attributeName="opacity" dur="3.8s" values="0.2;1;0.2" repeatCount="indefinite" begin="0.3s" />
+    </circle>
+    <circle cx="1040" cy="50" r="1.8">
+      <animate attributeName="opacity" dur="4.5s" values="0.2;1;0.2" repeatCount="indefinite" begin="0.9s" />
+    </circle>
+  </g>
+
+  <!-- 太阳 / 能量核心 -->
+  <g transform="translate(980,60)">
+    <circle cx="0" cy="0" r="34" fill="url(#sunGrad)" />
+    <circle cx="0" cy="0" r="60" fill="url(#glow)" opacity="0.12" filter="url(#softBlur)" />
+    <circle cx="0" cy="0" r="14" fill="#fff">
+      <animate attributeName="r" values="12;16;12" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.7;1" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- 中景：移动的云（水平循环） -->
+  <g fill="#ffffff" opacity="0.07">
+    <g>
+      <ellipse cx="200" cy="80" rx="56" ry="20" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0,0;980,0;0,0" dur="22s" repeatCount="indefinite" />
+    </g>
+    <g>
+      <ellipse cx="420" cy="40" rx="42" ry="14" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0,0;740,0;0,0" dur="18s" repeatCount="indefinite" />
+    </g>
+    <g>
+      <ellipse cx="640" cy="70" rx="72" ry="24" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0,0;560,0;0,0" dur="26s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <!-- 远山（慢速横移制造视差） -->
+  <g transform="translate(0,120)" opacity="0.18" fill="#0b3a4a">
+    <path d="M0 120 L120 20 L240 80 L360 28 L480 100 L600 40 L720 110 L840 30 L960 95 L1080 20 L1200 120 L1200 160 L0 160 Z" />
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0,120; -60,120;0,120" dur="28s" repeatCount="indefinite" />
+  </g>
+
+  <!-- 前山（更快的视差层） -->
+  <g transform="translate(0,160)" opacity="0.36" fill="#0e5260">
+    <path d="M0 80 L90 10 L170 60 L260 6 L360 74 L460 12 L580 86 L700 10 L820 78 L940 8 L1100 70 L1200 14 L1200 120 L0 120 Z" />
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0,160; -120,160;0,160" dur="20s" repeatCount="indefinite" />
+  </g>
+
+  <!-- 地面与平台（游戏化元素） -->
+  <g transform="translate(0,220)">
+    <rect x="0" y="60" width="1200" height="40" fill="#0b2f3a" />
+
+    <!-- 移动平台 -->
+    <g id="platform" transform="translate(120,12)">
+      <rect x="0" y="0" rx="6" ry="6" width="160" height="12" fill="#1f9aa8" />
+      <rect x="12" y="-8" width="24" height="10" rx="2" fill="#0b1720" opacity="0.12" />
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="120,12;540,12;120,12" dur="5.6s" repeatCount="indefinite" />
+    </g>
+
+    <!-- 跳跃平台（静态） -->
+    <rect x="720" y="20" rx="6" ry="6" width="120" height="12" fill="#5bd2c8" />
+  </g>
+
+  <!-- 收集品：旋转金币组 -->
+  <g id="coins" transform="translate(300,190)">
+    <!-- coin 1 -->
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="0" rx="10" ry="12" fill="#ffd86b" stroke="#ffb84d" stroke-width="1" />
+      <text x="-3" y="3" font-size="8" fill="#6c3a00" font-family="monospace">$</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0,0;0,-18;0,0" dur="1.2s" begin="0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" attributeType="XML" type="rotate" values="0;25;0" dur="1.2s" begin="0s" repeatCount="indefinite"/>
+    </g>
+    <!-- coin 2 -->
+    <g transform="translate(56,-8)">
+      <ellipse cx="0" cy="0" rx="10" ry="12" fill="#ffd86b" stroke="#ffb84d" stroke-width="1" />
+      <text x="-3" y="3" font-size="8" fill="#6c3a00" font-family="monospace">$</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="56,-8;56,-28;56,-8" dur="1.4s" begin="0.15s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" attributeType="XML" type="rotate" values="0;-25;0" dur="1.4s" begin="0.15s" repeatCount="indefinite"/>
+    </g>
+    <!-- coin 3 -->
+    <g transform="translate(112,0)">
+      <ellipse cx="0" cy="0" rx="10" ry="12" fill="#ffd86b" stroke="#ffb84d" stroke-width="1" />
+      <text x="-3" y="3" font-size="8" fill="#6c3a00" font-family="monospace">$</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" values="112,0;112,-20;112,0" dur="1s" begin="0.32s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" attributeType="XML" type="rotate" values="0;18;0" dur="1s" begin="0.32s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- 主角：像素人物（跳跃） -->
+  <g id="hero" transform="translate(120,180)">
+    <!-- 身体块状像素风 -->
+    <rect x="0" y="-28" width="18" height="18" rx="3" fill="#ff6b6b" />
+    <rect x="0" y="-10" width="18" height="6" rx="1" fill="#111827" />
+    <rect x="-6" y="-4" width="6" height="6" rx="1" fill="#ffd86b" />
+    <!-- 头部 -->
+    <rect x="4" y="-44" width="10" height="12" rx="2" fill="#ffc8c8" />
+    <!-- 跳跃动画 -->
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" values="120,180;120,140;120,180" dur="1.2s" repeatCount="indefinite" begin="0s" />
+  </g>
+
+  <!-- HUD：分数与提示（左上） -->
+  <g transform="translate(18,22)" fill="#ffffff" font-family="Segoe UI, Roboto, Arial">
+    <rect x="0" y="-12" rx="8" ry="8" width="160" height="28" fill="#ffffff" opacity="0.04" />
+    <text x="12" y="8" font-size="12" fill="#fff">Score: <tspan font-weight="700">1280</tspan></text>
+  </g>
+
+  <!-- 右下小提示（闪烁指引） -->
+  <g transform="translate(920,260)" fill="#fff" opacity="0.9">
+    <rect x="0" y="-18" rx="6" width="220" height="36" fill="#ffffff" opacity="0.03" />
+    <text x="12" y="6" font-size="12" fill="#e6f6f5">Collect coins · Jump on moving platforms</text>
+  </g>
+
+</svg>
