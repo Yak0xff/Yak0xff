@@ -15,8 +15,8 @@
   <g transform="translate(36,32)" fill="#fff" opacity="0.06">
     <rect x="0" y="0" width="1128" height="96" rx="6" />
   </g>
-  <g fill="#fff" opacity="0.9" font-family="Segoe UI, Roboto, Arial">
-    <text x="40" y="40" font-size="18" font-weight="600">探索 · 实验 · 快速迭代</text>
-    <text x="40" y="70" font-size="12" fill="#C7D2FE">将想法变成小而可玩的原型</text>
+  <g fill="#FF7A00" opacity="0.95" font-family="Segoe UI, Roboto, Arial">
+    <text x="40" y="40" font-size="18" font-weight="700">探索 · 实验 · 快速迭代</text>
+    <text x="40" y="70" font-size="12" fill="#FFB085">将想法变成小而可玩的原型</text>
   </g>
 </svg>

@@ -1,12 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/game_banner.svg" alt="Yak0xff game banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/game_banner.svg" alt="Yak0xff banner" width="100%" />
 </p>
 
-# Yak0xff — 展馆式主页
+<h1 align="center">Yak0xff</h1>
 
-<p align="center"><i>少字，多看 — 以视觉与交互讲故事</i></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/独立开发者-移动产品-FF7A00?style=for-the-badge&logo=github" alt="badge1" />
+  <img src="https://img.shields.io/badge/体验驱动-微交互-FF7A00?style=for-the-badge" alt="badge2" />
+  <img src="https://img.shields.io/badge/Playground-实验集-111827?style=for-the-badge" alt="badge3" />
+</p>
 
 ---
+
+<p align="center"><i style="color:#9CA3AF">少字 · 强视觉 · 以体验为主线</i></p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/dotgrid.svg" alt="dot grid" width="92%" />
@@ -18,25 +24,40 @@
   <img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/project_card_movie.svg" alt="project card" width="420" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/sep_line.svg" alt="separator" width="92%" />
-</p>
-
 <p align="center" style="color:#9CA3AF;max-width:720px;margin:0 auto;">
-  这是一个以“视觉化卡片与图形”为主的个人展馆。每张图代表一个体验节点：试用、感受、迭代。
+  我把每个产品想成一关：先把核心交互打磨成“可玩”的体验，再扩展为可持续的产品。下面是几个入口，点卡片即可了解更多（或在 Issues 请求 Demo）。
 </p>
 
 <p align="center" style="margin-top:18px;">
-  <a href="#featured" style="text-decoration:none;background:#7c3aed;color:#fff;padding:8px 14px;border-radius:8px">进入试玩馆 · Featured</a>
+  <a href="#featured" style="text-decoration:none;background:#FF7A00;color:#fff;padding:8px 14px;border-radius:8px">进入试玩馆 · Featured</a>
+  &nbsp; &nbsp;
+  <a href="https://github.com/Yak0xff?tab=repositories" style="text-decoration:none;border:1px solid rgba(255,122,0,0.12);color:#FF7A00;padding:8px 14px;border-radius:8px">查看仓库 · Repos</a>
 </p>
 
 ---
 
 ## Featured
 
-<p style="color:#6b7280;">（选中卡片可展开详细 demo / 链接 — 在 GitHub 上可用 Issues 请求演示）</p>
+<div id="featured">
 
-- Movie Tracker · 观影记录与发现
-- Sports Scoreboard · 实时比分面板
+- [yakoxff.github.io](https://github.com/Yak0xff/yakoxff.github.io) · 个人主页 / 演示站（若已发布为 Pages，该链接为演示入口）
 
-<p align="center" style="color:#94a3b8">将内容变成可玩的 demo，是我做产品的首要方式。</p>
+- [YakReader](https://github.com/Yak0xff/YakReader) · 阅读器类项目（演示 / 仓库链接）
+
+- [neural-archive](https://github.com/Yak0xff/neural-archive) · 轻量神经搜索 / 存档实验（演示 / 仓库链接）
+
+</div>
+
+---
+
+<p align="center" style="color:#94a3b8;max-width:760px;margin:0 auto;">
+  将内容变成可玩的 demo，是我做产品的首要方式。想看某个 demo，请在本仓库创建 Issue（标题写“Demo 请求：xxx”），我会把对应的演示放进 Playground。
+</p>
+
+<p align="center" style="margin-top:18px;">
+  <a href="https://github.com/Yak0xff/Yak0xff/issues/new" style="text-decoration:none;background:#FF7A00;color:#fff;padding:8px 14px;border-radius:8px">提交 Demo 请求</a>
+</p>
+
+<footer>
+<p align="center" style="color:#94a3b8;margin-top:26px">Build · Play · Ship — 用可玩的想法驱动产品。</p>
+</footer>
