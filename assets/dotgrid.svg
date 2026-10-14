@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="dot grid">
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="transparent" />
+      <circle cx="2" cy="2" r="1.4" fill="#9CA3AF" opacity="0.18" />
+    </pattern>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#071029" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="160" fill="url(#g)" rx="8"/>
+  <rect x="0" y="0" width="1200" height="160" fill="url(#dots)" />
+  <g transform="translate(36,32)" fill="#fff" opacity="0.06">
+    <rect x="0" y="0" width="1128" height="96" rx="6" />
+  </g>
+  <g fill="#fff" opacity="0.9" font-family="Segoe UI, Roboto, Arial">
+    <text x="40" y="40" font-size="18" font-weight="600">探索 · 实验 · 快速迭代</text>
+    <text x="40" y="70" font-size="12" fill="#C7D2FE">将想法变成小而可玩的原型</text>
+  </g>
+</svg>
