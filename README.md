@@ -1,21 +1,23 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/avatar_cartoon1.svg" width="25%" align="right" />
-<img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=A7A459&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=200&lines=Yak0xff%0A%D0%9C%D0%9E%D0%92%D0%95%D0%95%0A%3Cb%3EBuild+for+fun%3C%2Fb%3E" />
-<br><br>
-<pre>
-    💼 Mobile dev • Product-minded builder
-    💻 Flutter • SwiftUI • React Native • Android • iOS
-    📖 UX • Motion • Product iteration • Clean engineering
-    🎮 Music • Games • Anime • Code • Art
-    🐾 Build small things with meaning
-</pre>
-<br>
-<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
-<br><br>
-
-<!-- [![](https://img.shields.io/badge/linkedin-0a66c2)](http://linkedin.com/in/ingridrosselis) -->
-<!-- [![](https://img.shields.io/badge/mastodon-6364ff)](https://tech.lgbt/@innng) -->
-[![](https://img.shields.io/badge/GitHub-000000)](https://github.com/Yak0xff)
-[![](https://img.shields.io/badge/Projects-Repo-FF7A00)](https://github.com/Yak0xff?tab=repositories)
-[![](https://img.shields.io/badge/Portfolio-yakoxff.github.io-FF7A00)](https://github.com/Yak0xff/yakoxff.github.io)
+  <h1 style="font-size: 72px; font-weight: 800; letter-spacing: 0.12em; margin-bottom: 0;">Yak0xff</h1>
+  <p style="font-size: 22px; font-weight: 600; letter-spacing: 0.08em; color: #FF7A00; margin-top: 10px; margin-bottom: 18px;">
+    Product-minded builder • Mobile • UX • Motion
+  </p>
 </div>
+
+<p align="center">
+  <a href="https://github.com/Yak0xff?tab=repositories" style="text-decoration:none; background:#FF7A00; color:#fff; padding:10px 18px; border-radius:999px; font-weight:700; display:inline-block; margin:0 8px;">Repos</a>
+  <a href="https://github.com/Yak0xff/yakoxff.github.io" style="text-decoration:none; border:1px solid #FF7A00; color:#FF7A00; padding:10px 18px; border-radius:999px; font-weight:700; display:inline-block; margin:0 8px;">Portfolio</a>
+  <a href="https://github.com/Yak0xff/YakReader" style="text-decoration:none; border:1px solid #FF7A00; color:#FF7A00; padding:10px 18px; border-radius:999px; font-weight:700; display:inline-block; margin:0 8px;">YakReader</a>
+  <a href="https://github.com/Yak0xff/neural-archive" style="text-decoration:none; border:1px solid #FF7A00; color:#FF7A00; padding:10px 18px; border-radius:999px; font-weight:700; display:inline-block; margin:0 8px;">neural-archive</a>
+</p>
+
+---
+
+<p align="center" style="font-size: 18px; line-height: 1.8; max-width: 760px; margin: 0 auto; color: #d1d5db;">
+  I build small things that feel good, move smoothly, and make sense in real life.
+</p>
+
+<p align="center" style="font-size: 15px; color: #9ca3af; margin-top: 18px;">
+  Flutter • SwiftUI • React Native • Android • iOS
+</p>
