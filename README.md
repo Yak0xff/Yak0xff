@@ -1,94 +1,50 @@
-# Hi, I'm Yak0xff 👋
+# Yak0xff
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Software-Engineer-0A84FF?logo=code&logoColor=white" alt="Software Engineer" />
-  <img src="https://img.shields.io/badge/Mobile-App%20Developer-FF6B6B?logo=android&logoColor=white" alt="Mobile App Developer" />
-  <img src="https://img.shields.io/badge/Focus-UI%2FUX%20%26%20Performance-34D399?logo=rocket&logoColor=white" alt="Focus" />
+  <img src="https://img.shields.io/badge/Mobile%20Engineer-极简风-222222?logo=github&logoColor=white" alt="profile" />
 
 </div>
 
-<p align="center">
-  <i>Building beautiful, high-performance mobile experiences that people actually enjoy.</i>
-</p>
-
-I'm a passionate Software Engineer specializing in mobile app development. I love turning ideas into polished products, crafting intuitive interfaces, and shipping experiences that feel seamless across devices.
+<p align="center">简洁 · 专注 · 实用</p>
 
 ---
 
-## 👨‍💻 About Me
+## 关于我
 
-- 🔭 Building exciting mobile products with a focus on usability and performance
-- 📱 Passionate about Android and iOS app development
-- 🏆 Enjoy creating products that are both technically solid and visually engaging
-- 🎬 Movie enthusiast and sports fan — always happy to talk about the latest releases, matches, or standout experiences
-- 💡 Constantly exploring new tools, frameworks, and engineering best practices
+移动开发工程师，关注产品体验与工程质量。擅长将复杂需求拆解为可落地的方案，追求简洁、流畅的用户体验。
 
 ---
 
-## 🛠️ Tech Stack
+## 技能概览
 
-### Languages
-- Objective-C
-- Swift
-- Dart
-- TypeScript
-- JavaScript
-- Python
-
-### Frameworks & Platforms
-- Flutter
-- React Native
-- SwiftUI
-- Jetpack Compose
-
-### Tools & Workflow
-- Android Studio
-- Xcode
-- Firebase
-- Git
-- GitHub Actions
-
-### Other Strengths
-- UI/UX design
-- REST APIs
-- Agile development
-- Clean, maintainable code architecture
+- 语言：Objective‑C、Swift、Dart、TypeScript、JavaScript、Python
+- 框架：Flutter、React Native、SwiftUI、Jetpack Compose
+- 工具：Android Studio、Xcode、Firebase、Git、GitHub Actions
+- 擅长：UI/UX、性能优化、架构设计、REST API 集成
 
 ---
 
-## 🚀 What I Enjoy
+## 代表项目
 
-- Designing mobile experiences that feel natural and intuitive
-- Building apps with smooth performance and strong user flows
-- Experimenting with new technologies and learning from real-world use cases
-- Turning product ideas into practical, user-focused solutions
+- Movie Tracker：观影记录与推荐（移动端）
+- Sports Scoreboard：实时比分与赛况通知
 
----
-
-## 📚 Currently Learning
-
-- Advanced animations and transitions in Flutter & SwiftUI
-- Integrating AI/ML into mobile apps for smarter personalization and recommendations
-- Improving product thinking and app architecture for long-term scalability
+更多项目见仓库中的已置顶项目。
 
 ---
 
-## ✨ Project Themes I Love
+## 目前在学
 
-- 📱 Movie tracking apps that help people discover what to watch next
-- 🏟️ Sports dashboards and score-focused experiences
-- 🧩 Utility apps that simplify daily routines
-- ⚡ Tools that combine strong UX with clean engineering
+- Flutter 与 SwiftUI 的高级动画与交互
+- 在移动端应用中集成轻量级 AI/ML 推荐能力
 
 ---
 
-> “Code is like humor. When you have to explain it, it’s bad.” – Cory House
+## 联系方式
 
-<div align="center">
+- GitHub: https://github.com/Yak0xff
 
-  <img src="https://img.shields.io/badge/Always%20Learning-Yes-8A2BE2" alt="Always Learning" />
-  <img src="https://img.shields.io/badge/Shipping-Apps%20Daily-00C853" alt="Shipping" />
-  <img src="https://img.shields.io/badge/Focus-Mobile-FF9800" alt="Mobile Focus" />
+---
 
-</div>
+> Code less, ship more.
