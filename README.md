@@ -1,6 +1,6 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/animated_badge.svg" width="25%" align="right" />
-<img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=FF7A00&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=200&lines=Yak0xff%0A%D0%9C%D0%9E%D0%92%D0%95%D0%95%0A%3Cb%3EBuild+for+fun%3C%2Fb%3E" />
+<img src="https://raw.githubusercontent.com/Yak0xff/Yak0xff/main/assets/avatar_cartoon1.svg" width="25%" align="right" />
+<img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=A7A459&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=200&lines=Yak0xff%0A%D0%9C%D0%9E%D0%92%D0%95%D0%95%0A%3Cb%3EBuild+for+fun%3C%2Fb%3E" />
 <br><br>
 <pre>
     💼 Mobile dev • Product-minded builder
